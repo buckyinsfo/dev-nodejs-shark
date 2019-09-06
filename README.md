@@ -9,4 +9,4 @@ This is a handly little project originally created [by katjuell](https://katjuel
 
 I did have issues with the wait-for.sh script.  For the time being I'll just leave it commented out in the docker-compose file.  
 
-I primarily used this project to work through the final sections of [Mark Takacs](https://takacsmark.com/) book on Docker.  In fact the edits on this page should trigger an automatic image build on my docker hub repo.
+I primarily used this project to work through the final sections of [Mark Takacs](https://takacsmark.com/) book on Docker.  In fact, the edits on this page should trigger an automatic image build on my docker hub repo.
