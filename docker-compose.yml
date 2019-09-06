@@ -21,7 +21,7 @@ services:
       - .:/home/node/app
       - node_modules:/home/node/app/node_modules
     networks:
-      - app-network
+      - shark-network
     #command: ./wait-for.sh db:27017 && /home/node/app/node_modules/.bin/nodemon app.js 
     command: /home/node/app/node_modules/.bin/nodemon app.js 
 
@@ -38,10 +38,10 @@ services:
     volumes:  
       - dbdata:/data/db   
     networks:
-      - app-network  
+      - shark-network  
 
 networks:
-  app-network:
+  shark-network:
       driver: bridge
 
 volumes:
